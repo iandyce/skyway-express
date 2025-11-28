@@ -52,9 +52,12 @@ export default function RootLayout({
                     {item.name}
                   </Link>
                 ))}
-                <button className="bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-8 rounded-lg transition">
-                  Get Quote
-                </button>
+                <Link
+  href="/contact"
+  className="bg-teal-500 hover:bg-teal-400 text-white font-bold py-3 px-8 rounded-lg transition transform hover:scale-105 shadow-lg"
+>
+  Get Quote
+</Link>
               </nav>
 
               {/* Mobile */}
@@ -71,9 +74,12 @@ export default function RootLayout({
                     {item.name}
                   </Link>
                 ))}
-                <button className="bg-teal-500 hover:bg-teal-600 text-white font-bold py-4 w-full rounded-lg">
-                  Get Quote
-                </button>
+                <Link
+  href="/contact"
+  className="bg-teal-500 hover:bg-teal-400 text-white font-bold py-4 w-full rounded-lg transition transform hover:scale-105 block text-center"
+>
+  Get Quote
+</Link>
               </nav>
             )}
           </div>

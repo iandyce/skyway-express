@@ -36,7 +36,7 @@ export default function Contact() {
           {/* Contact Info */}
           <div className="space-y-10">
             {[
-              { icon: <Phone className="w-8 h-8" />, label: 'Phone', value: '+254 700 123 456' },
+              { icon: <Phone className="w-8 h-8" />, label: 'Phone', value: '0207868575' },
               { icon: <Mail className="w-8 h-8" />, label: 'Email', value: 'operations@skyway.co.ke' },
               { icon: <MapPin className="w-8 h-8" />, label: 'Head Office', value: 'Nairobi CBD, Kenyatta Ave' },
               { icon: <MapPin className="w-8 h-8" />, label: 'Mombasa Office', value: 'Port Reitz, Moi International Airport' },
